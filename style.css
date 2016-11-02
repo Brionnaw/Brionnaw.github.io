@@ -42,6 +42,13 @@ body {
   font-size: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+  .background {
+    max-width:100%;
+    max-height: 20vh;
+  }
+}
+
 .projects {
   background-color: white;
   color: #273038;
@@ -70,7 +77,7 @@ hr {
 .bio-photo{
 
 }
-s
+
 @media only screen and (max-width: 768px) {
   .bio-photo {
     position: center;
