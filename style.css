@@ -1,0 +1,105 @@
+body {
+  font-family:sans-serif;
+}
+
+.navbar {
+  padding-right: 20px;
+  padding-left: 25px;
+  background-color:#273038;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding:0px 110px 0px 0px;
+    max-width:100%;
+  }
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: #b5a9d6;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #b5a9d6;
+}
+
+.background {
+  background-image: url('images/cover-photo.jpg');
+  max-width:103%;
+  height: 60vh;
+  opacity: 0.6;
+  background-repeat: no-repeat, repeat;
+  color:#000000;
+  font-size: 50px;
+}
+
+.projects {
+  background-color: white;
+  color: #273038;
+  font-size: 15px;
+  padding: 60px 0px 60px 0px;
+}
+
+.projects a:hover {
+    color: #b5a9d6 !important;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #333;
+}
+
+.tech-row {
+  padding: 60px 0px 60px 0px;
+  background-color:#273038;
+  color:#b5a9d6;
+  font-size: 15px;
+
+}
+
+.bio-photo{
+
+}
+s
+@media only screen and (max-width: 768px) {
+  .bio-photo {
+    position: center;
+  }
+}
+
+.about-me {
+  padding: 40px 0px 40px 0px;
+  background-color: ghostwhite;
+  color:black;
+}
+
+a:hover {
+  color:#b5a9d6;
+  cursor:pointer;
+}
+
+i:hover {
+  color:white;
+  cursor:pointer;
+}
+
+footer {
+  background-color: #273038;
+  padding: 15px 0px 15px 0px;
+  max-width:103%;
+  color:#b5a9d6;
+}
+
+.contact-icons {
+  margin: 0px 5px 0px 5px;
+}
