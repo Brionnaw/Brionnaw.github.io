@@ -9,14 +9,13 @@ body {
   background-color:#273038;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .navbar {
-    padding:0px 110px 0px 0px;
-    max-width:100%;
-    background:
+      padding-right: 155px;
+      padding-left: 30px;
+      background-color: #273038;
   }
 }
-
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 0px;
