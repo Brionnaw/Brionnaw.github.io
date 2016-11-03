@@ -68,15 +68,25 @@ hr {
 }
 
 .tech-row {
-  padding: 60px 0px 60px 0px;
+  padding: 30px 0px 50px 0px;
   background-color:#273038;
   color:#b5a9d6;
   font-size: 15px;
 
 }
 
-.bio-photo{
+@media only screen and (max-width: 768px) {
+  .tech-row {
+    padding: 30px 0px 50px 0px;
+    background-color:#273038;
+    color:#b5a9d6;
+    font-size: 9px;
 
+  }
+}
+
+
+.bio-photo{
 }
 
 @media only screen and (max-width: 768px) {
@@ -91,6 +101,7 @@ hr {
   color:black;
 }
 
+
 a:hover {
   color:#b5a9d6;
   cursor:pointer;
@@ -104,9 +115,11 @@ i:hover {
 footer {
   background-color: #273038;
   padding: 15px 0px 15px 0px;
-  max-width:103%;
+  max-width:100%;
   color:#b5a9d6;
 }
+
+
 
 .contact-icons {
   margin: 0px 5px 0px 5px;

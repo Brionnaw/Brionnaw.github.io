@@ -154,8 +154,15 @@
           <img src="images/portfolio3.png" class="bio-photo" width="300" height="450">
           <div class="row">
           <div class="col-sm-6 col-md-8">
-            <h3 class="text-center" style="font-size:40px">Brionna White</h3>
-            <p class="text-center" style="font-size:20px">Software Engineer</p>
+            <!-- my name(desktop) -->
+            <h3 class="text-center hidden-xs hidden-sm" style="font-size:40px">Brionna White</h3>
+            <!-- my name(tablet) -->
+            <h3 class="text-center visible-sm" style="font-size:20px;">Brionna White</h3>
+            <!-- my position(desktop) -->
+            <p class="text-center hidden-xs hidden-sm" style="font-size:20px">Software Engineer</p>
+            <!-- my position(tablet) -->
+            <p class="text-center visible-sm" style="font-size:15px; text-align:center;">Software Engineer</p>
+
             <div class="text-center">
               <a class="contact-icons fa fa-github fa-lg" href="https://github.com/Brionnaw"></a>
               <a class="contact-icons fa fa-linkedin fa-lg" href="https://www.linkedin.com/in/brionnawhite"></a>
@@ -169,7 +176,9 @@
           <div class="col-sm-6 col-md-6">
           <h3 style="font-size:40px">About Me</h3>
           <hr>
-          <p style="font-size:15px">
+          <p style="font-size:15px" class="hidden-xs hidden-sm">
+            <p style="font-size:13px" class="visible-sm">
+
             I'm a software engineer who has experience in JavaScript programming based in the San Francisco Bay Area.
             I enjoy creating clean, intuitive and responsive applications to provide the best user experiences.
             You can catch me exploring new frameworks, taking selfies, or snoozing the day away.
@@ -182,6 +191,7 @@
             <br/>
             <a href="assets/BrionnaWhite-Resume.pdf" download="BrionnaWhite-Resume">Download a Copy of my Resume</a>
           </p>
+        </p>
         </div>
       </div>
       <div class="col-sm-1 col-md-1"></div>
@@ -190,7 +200,7 @@
     <footer>
       <div class="row">
         <div class="col-sm-12 col-md-12">
-          <p class="copyright text-center">
+          <p class="text-center">
             &copy; 2016 Brionna White | <a href="https://github.com/Brionnaw/my-devpage" style="color:lightgray">View this site on Github</a></strong>
           </p>
         </footer>
