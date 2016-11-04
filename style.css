@@ -63,7 +63,7 @@ body {
   background-color: white;
   color: #273038;
   font-size: 15px;
-  padding: 60px 30px 60px 30px;
+  padding: 60px 30px 60px 0px;
 }
 
 .projects a:hover {
