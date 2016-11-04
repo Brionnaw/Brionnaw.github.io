@@ -45,7 +45,7 @@ body {
 @media only screen and (max-width: 768px) {
   .background {
     max-width:104vw;
-    max-height: 140vh;
+    max-height: 30vh;
   }
 }
 
@@ -59,6 +59,7 @@ body {
 .projects a:hover {
     color: #b5a9d6 !important;
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
