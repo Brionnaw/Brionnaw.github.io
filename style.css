@@ -59,6 +59,13 @@ body {
   padding: 60px 0px 60px 0px;
 }
 
+.projects-mobile {
+  background-color: white;
+  color: #273038;
+  font-size: 15px;
+  padding: 60px 30px 60px 30px;
+}
+
 .projects a:hover {
     color: #b5a9d6 !important;
 }
@@ -78,16 +85,12 @@ hr {
 
 }
 
-
 .tech-row-mobile {
-  padding: 30px 30px 30px 30px;
+  padding: 15px 0px 25px 0px;
   background-color:#273038;
   color:#b5a9d6;
-  font-size: 10px;
-
+  font-size: 12px;
   }
-
-
 
 .bio-photo{
 }
