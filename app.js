@@ -1,8 +1,13 @@
-var clickDropDown = function(){
+var toggleMenu = function(){
   var dropdown = document.getElementById("dropdown")
   var dropdownContent = document.getElementById("dropdownContent")
-    dropdown.style.display = "block"
-    dropdownContent.style.display = "block"
-
+  if (dropdown.style.display == "block")
+  dropdown.style.display = "none";
+  } else {
+    dropdown.style.display = "none";
+    if(dropdownContent.style.display == "block")
+    dropdownContent.style.display = "none";
+  }else {
+    dropdownContent.style.display = "none";
+  }
 }
-console.log('hit')
