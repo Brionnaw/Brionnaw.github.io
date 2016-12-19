@@ -37,6 +37,7 @@ body {
 
 .background {
   background-image: url('images/cover-photo.jpg');
+  background-position: left;
   max-width:103%;
   height: 60vh;
   opacity: 0.6;
