@@ -121,6 +121,7 @@ hr {
 a:hover {
   color:#b5a9d6;
   cursor:pointer;
+  text-decoration: none;
 }
 
 i:hover {
@@ -136,14 +137,15 @@ i:hover {
 }
 
 .footer-mobile {
-  background-color: #fff;
+  background-color: #273038;
   padding: 15px 0px 15px 0px;
   max-width:100vw;
   color:#b5a9d6;
 }
 
 .contact-icons {
-  padding: -5px 0px 0px 0px;
+  padding: 0px 2px 0px 0px;
+  text-decoration: none;
 }
 
 .dropdown {
