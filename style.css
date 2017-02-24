@@ -36,11 +36,11 @@ body {
 }
 
 .background {
-  background-image: url('images/cover-photo.jpg');
+  background-image: url('images/misc.png');
   background-position: left;
   max-width:103%;
-  height: 60vh;
-  opacity: 0.6;
+  height: 70vh;
+  opacity: 0.7;
   background-repeat: no-repeat, repeat;
   color:#000000;
   font-size: 50px;
@@ -131,20 +131,20 @@ i:hover {
 
 .footer-desktop {
   background-color: #273038;
-  padding: 15px 0px 15px 0px;
+  padding: 35px 0px 35px 0px;
   max-width:100vw;
   color:#b5a9d6;
 }
 
 .footer-mobile {
   background-color: #273038;
-  padding: 15px 0px 15px 0px;
+  padding: 25px 0px 25px 0px;
   max-width:100vw;
   color:#b5a9d6;
 }
 
 .contact-icons {
-  padding: 0px 2px 0px 0px;
+  padding: 0px 2px 15px 0px;
   text-decoration: none;
 }
 
@@ -164,4 +164,63 @@ i:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.brand img {
+  padding-top: 10px;
+}
+.brand {
+  position: absolute;
+  padding-left: 50px;
+  float: left;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+#frame {
+    max-width: 500px;
+    margin: auto;
+    background-color: #ccc;
+    border-radius: 5px;
+    padding-top: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+#console {
+    background-color: #333;
+    padding: 10px 20px;
+    color: #f2f2f2;
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 2rem;
+}
+
+.header {
+  padding: 260px 0px 50px 475px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
