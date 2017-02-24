@@ -1,5 +1,5 @@
 body {
-  font-family:sans-serif;
+  font-family:'Karla', sans-serif
 }
 .row {
      margin-right: 0px;
@@ -40,7 +40,7 @@ body {
   background-position: left;
   max-width:103%;
   height: 70vh;
-  opacity: 0.7;
+  opacity: 0.9;
   background-repeat: no-repeat, repeat;
   color:#000000;
   font-size: 50px;
