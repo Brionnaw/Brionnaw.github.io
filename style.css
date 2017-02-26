@@ -40,7 +40,7 @@ body {
   background-position: left;
   max-width:103%;
   height: 70vh;
-  opacity: 0.9;
+  opacity: 0.8;
   background-repeat: no-repeat, repeat;
   color:#000000;
   font-size: 50px;
@@ -215,7 +215,6 @@ i:hover {
 .header {
   padding: 260px 0px 50px 475px;
 }
-
 .container {
     position: relative;
     width: 100%;
@@ -223,4 +222,18 @@ i:hover {
     margin: 0 auto;
     padding: 0 75px;
     box-sizing: border-box;
+ }
+ @media only screen and (max-width: 800px) {
+
+.header {
+  padding: 100px 0px 0px 130px;
+ }
+ .container {
+     position: relative;
+     width: 100%;
+     max-width: 960px;
+     margin: 0 auto;
+     padding: 0 65px;
+     box-sizing: border-box;
+ }
 }
