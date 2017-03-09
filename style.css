@@ -123,10 +123,6 @@ a:hover {
   cursor:pointer;
   text-decoration: none;
 }
-a {
-    color: #c3d2d5;
-    text-decoration: none;
-}
 
 i:hover {
   color:white;
@@ -143,22 +139,7 @@ i:hover {
   font-weight: 300;
 }
 
-.footer-desktop h6  {
-    letter-spacing: 0.25em;
-    font-size: 20px;
-    color: #b5a9d6;
-    text-transform: uppercase;
-    margin-bottom: 0.5em !important;
-}
 
-.footer-desktop p {
-    color: #b5a9d6;
-    width: 50%;
-    margin: 0 auto 40px;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: 300;
-}
 
 .footer1-desktop {
   background-color: ghostwhite;
