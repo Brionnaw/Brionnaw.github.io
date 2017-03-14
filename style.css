@@ -144,6 +144,15 @@ i:hover {
 
 }
 
+footer  h5 {
+    letter-spacing: 0.25em;
+    font-size: 20px;
+    color: #eee;
+    text-transform: uppercase;
+    margin-bottom: 0.5em !important;
+}
+
+
 .contact-icons {
   color: #2b3e50;
   zoom:100%;
