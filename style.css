@@ -249,21 +249,17 @@ footer  h5 {
      box-sizing: border-box;
  }
 }
-
-
-
-	.caption-style-2{
-		list-style-type: none;
-		margin: 0px;
-		padding: 0px;
-
+.caption-style-2{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
 	}
-	.caption-style-2 li{
-		float: left;
-		padding: 2px;
-		position: relative;
-		overflow: hidden;
-	}
+.caption-style-2 li{
+	float: left;
+	padding: 2px;
+  position: relative;
+  overflow: hidden;
+}
 	.caption-style-2 li:hover .caption{
 		opacity: 1;
 		transform: translateY(-100px);
@@ -401,9 +397,9 @@ footer  h5 {
   		height: 200px;
   		text-align: center;
   		top:20px;
-  	}
+    }
     h1,h2,h3,h4{
-    		padding: 0px;
-    		margin: 0px;
-    	}
+      padding: 0px;
+      margin: 0px;
+    }
 }
