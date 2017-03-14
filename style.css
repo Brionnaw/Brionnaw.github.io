@@ -210,7 +210,7 @@ i:hover {
     padding: 10px 20px;
     color: #f2f2f2;
     font-family: 'Monaco', 'Courier New', monospace;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .header {
@@ -306,4 +306,7 @@ i:hover {
   border: thin solid black;
   width:250px;
   height:200px;
+}
+.type-mobile {
+
 }
