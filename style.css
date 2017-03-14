@@ -238,7 +238,7 @@ footer  h5 {
  @media only screen and (max-width: 800px) {
 
 .header {
-  padding: 100px 0px 95px 130px;
+  padding: 100px 0px 95px 80px;
  }
  .container {
      position: relative;
