@@ -274,8 +274,7 @@ footer  h5 {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .img {
-      border: thin solid black;
       width:250px;
-      height:200px;
+      height:250px;
     }
 }
